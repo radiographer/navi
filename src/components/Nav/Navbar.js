@@ -5,7 +5,7 @@ import logo from "./images/logo.png";
 
 const Nav = styled.nav`
   position: fixed;
-
+  z-index: 2;
   color: #edf0f1;
   background-color: #77a8a8;
   width: 100%;

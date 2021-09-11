@@ -7,6 +7,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  /* transition: 1s; */
   li {
     padding: 18px 10px;
     &:hover {
