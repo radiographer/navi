@@ -29,7 +29,7 @@ const Result = styled.div`
   border: 1px solid;
   border-radius: 5px;
   width: 100px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   font-weight: 500px;
   font-style: "italic";

@@ -17,13 +17,15 @@ const Ul = styled.ul`
     flex-flow: column nowrap;
     background-color: #024f49;
     position: fixed;
+
+    transform: scale(1);
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
     height: 100vh;
     width: 300px;
     padding-top: 3.5rem;
-    /* transition: transform 0.3s ease-in-out; */
+    transition: transform 0.5s ease-in-out;
     li {
       color: #fff;
       &:hover {
